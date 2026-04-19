@@ -24,10 +24,10 @@ function addTransaction() {
 
   if (type === "income") {
     li.innerText = text + " : +₹ " + amount;
-    li.style.color = "green";
+    li.style.color = "#00ffcc";
   } else {
     li.innerText = text + " : -₹ " + amount;
-    li.style.color = "red";
+    li.style.color = "#ffcc00";
   }
 
   document.getElementById("list").appendChild(li);
