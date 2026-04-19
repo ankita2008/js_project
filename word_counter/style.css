@@ -8,12 +8,11 @@ body {
   font-family: Arial;
   display: flex;
   justify-content: center;
-  /* margin-top: 50px; */
   background: linear-gradient(45deg,#0a0a0a,#3a4452);
   color: #fff;
   background-repeat: no-repeat;
   height: 100vh;
-  /* background-size: 100%; */
+  width: 100%;
 }
 
 h2{
@@ -21,7 +20,6 @@ h2{
 }
 
 .container {
-  /* padding-top: 10px; */
   width: 400px;
   text-align: center;
 }
@@ -33,7 +31,7 @@ textarea {
   padding: 10px;
   background: linear-gradient(45deg,#0a0a0a,#3a4452);
   box-shadow: 3px 6px 15px rgba(113,115,119,0.9);
-  border: none;
+  border: 1px solid #717377;
   border-radius: 16px;
   color: #fff;
 }
