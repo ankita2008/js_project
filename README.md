@@ -1,66 +1,65 @@
-# 🌟 JavaScript Projects Collection
+# 🚀 JavaScript Projects Collection
 
-Welcome to my JavaScript Projects Repository 💻  
-This repo contains multiple beginner-friendly projects that helped me improve my logic, DOM manipulation, and problem-solving skills.
-
----
-
-## 📂 Projects Included
-
-### 🧠 Quiz App
-- Multiple choice questions  
-- Score tracking system  
-- Timer included ⏱️  
+This repository contains beginner-friendly JavaScript projects 💻
 
 ---
 
-### 💰 Money Manager
-- Add income & expense  
-- Balance calculation  
-- Color indication (🟢 income / 🔴 expense)  
+## 🧠 Quiz App
+
+<p align="center">
+  <img src="images/quiz.png" width="300"/>
+</p>
+
+* Multiple choice questions
+* Score tracking
+* Timer included
 
 ---
 
-### 📝 Word Counter
-- Counts words & characters  
-- Live typing update  
+## 💰 Money Manager
+
+<p align="center">
+  <img src="images/expense.png" width="300"/>
+</p>
+
+* Add income & expense
+* Balance calculation
 
 ---
 
-### 🧮 Calculator
-- Basic operations (+, -, *, /)  
-- Clear & delete functionality  
+## 📝 Word Counter
+
+<p align="center">
+  <img src="images/counter.png" width="300"/>
+</p>
+
+* Counts words & characters
+* Live typing update
 
 ---
 
-### 🎂 Birthday Counter
-- Countdown to next birthday  
-- Shows days, hours, minutes, seconds ⏳  
-- Age calculation included  
+## 🧮 Calculator
+
+<p align="center">
+  <img src="images/calculator.png" width="300"/>
+</p>
+
+* Basic operations
+* Clear & delete
+
+---
+
+## 🎂 Birthday Counter
+
+<p align="center">
+  <img src="images/birthday.png" width="300"/>
+</p>
+
+* Countdown timer
+* Age calculation
 
 ---
 
 ## 🛠️ Tech Stack
-- HTML  
-- CSS  
-- JavaScript  
 
----
-
-## 🎯 What I Learned
-- DOM Manipulation  
-- Event Handling  
-- Logic Building  
-- Real-world project structure  
-
----
-
-## 📌 Future Improvements
-- Add better UI/UX 🎨  
-- Make projects responsive 📱  
-- Add more advanced features  
-
----
-
-## 👩‍💻 About Me
-I am a beginner frontend developer learning JavaScript and building projects to improve my skills 🚀  
+HTML • CSS • JavaScript
