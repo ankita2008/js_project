@@ -56,10 +56,10 @@ body {
   cursor: pointer;
 }
 
-.equal{
+button.equal{
   background-color: #fb7c14;
 }
 
-.operator{
+button.operator{
   color: #6dee0a;
 }
