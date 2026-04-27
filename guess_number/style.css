@@ -1,0 +1,134 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    /* background-color: #121212; */
+    background: linear-gradient(108.7deg,rgba(221,22,224,1),rgba(111,22,190,1)88.2%);
+    font-family:Arial, Helvetica, sans-serif;
+    /* color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rba(0,0,0,0.2);
+    position: fixed;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    padding: 0 4rem 0 4rem;
+    margin: 6rem 0 0 34rem;
+    /* background-color: aliceblue;
+    
+    background : #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6); */
+}
+
+h1{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #f019ec;
+}
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #6f16be;
+}
+input{
+  padding: 10px;
+  border-radius: .8rem;
+  border: 2px solid #6f16be;
+  margin-bottom: 20px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  color: #6f16be;
+  outline: none;
+}
+button{
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(108.7deg, rgba(221,22,224,1) 11%, rgba(111,22,190,1)88.2%);
+  font-weight: bold;
+}
+button:hover{
+  transform: scale(1.1);
+}
+#result{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* input{
+    padding: 10px;
+    width: 60%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    padding: 10px 20px;
+
+}
+ 
+
+
+ /* body {
+  font-family: Arial;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+  color: white;
+} */ 
