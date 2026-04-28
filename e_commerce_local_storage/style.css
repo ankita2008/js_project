@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.nav1{
+    width: 100%;
+    height: 60px;
+    background-color: #dceeff ;
+    display: flex;
+    align-items: center;
+   
+}
+
+.nav1 a:hover{
+    color: #a2cfff;
+}
+
+.nav1 button:hover{
+    color: #081b29;
+    background: #0ef;
+     box-shadow: 0 0 25px rgb(61, 170, 178), 
+    0 0 50px rgb(61, 170, 178), 0 0 100px rgb(61, 170, 178), 
+    0 0 200px rgb(61, 170, 178);
+}
+
+.nav1 h1:hover{
+    color: #a2cfff;
+}
+
+.h1{
+    font-size: 28px;
+    color: #003366; 
+    padding-left: 100px;
+    
+    /* it used to element invisible hoga.it's mean dikhay nahi dega */
+    opacity: 0;
+
+    /* slideRight is name of animation and it's used to text slide for left to right */
+    animation: slideRight 1s ease forwards;
+
+    /* it used to 7second delay ke bad start hoga */
+    animation-delay: .7s;
+}
+.l1{
+    text-decoration: none;
+    color: #003366 ;
+    font-size: 28px;
+    padding-left: 350px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+
+
+.l2{
+    text-decoration: none;
+    color: #003366 ;
+    font-size: 28px;
+    padding-left: 50px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+
+}
+
+.l3{
+    text-decoration: none;
+    color: #003366 ;
+    font-size: 28px;
+    padding-left: 50px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+
+}
+
+.button1{
+    cursor: pointer;
+    color: #0ef;
+    background-color: #081b29;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 310px;
+    font-size: 18px;
+    box-shadow: 0 0 5px #0ef,0 0 25px #0ef;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .7s;
+}
+
+@keyframes slideRight {
+     0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    } 
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+/* MAIN SECTION IN IMG */
+
+.section-main{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-image: url(./img/background.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    padding-top: 200px;
+}
+.heading3{
+   font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+  left: 100px;
+  font-size: 30px;
+  color: rgb(2, 223, 243);
+}
+
+.span1{
+    padding-left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
+.heading1{
+    display: inline;
+    padding-left: 10px;
+    font-size: 30px;
+     
+}
+.heading2{
+    padding-left: 100px;
+    font-size: 30px;
+}
+.fa-circle-check{
+    color: black;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+    font-size: 18px;
+    
+}
+.span2{
+    color: rgb(116, 155, 218);
+    position: relative;
+    bottom: 72px;
+    left: 110px;
+    font-size: 20px;
+}
+
+.btn-main-section{
+    background-color: rgb(27, 124, 221);
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    right: 280px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icon-section1{
+    padding-left: 10px;
+}
+
+.section-main-heading1{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    
+}
+
+/* WOMEN SECTION PART */
+
+.section-second{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    /* overflow: auto; */
+    height: 430px ;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px grey;
+    background-color: white;
+    transition: transform 0.3s ease;
+
+}
+.box:hover{
+     transform: scale(1.1);
+}
+
+.box1-button1{
+  background-color: red;
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 22px;
+  display: block;
+}
+
+.box1-img1{
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    padding-left: 5px;
+}
+.fa-star{
+    color: orange;
+    position: relative;
+    left: 19px;
+    top: 15px;
+}
+.fa-star-half-stroke{
+    color: orange;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+.box1-heading1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.box1-span1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 20;
+    font-size: 18px;
+}
+.box1-del1{
+    padding-left: 10px;
+}
+.box1-btn1{
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    height: 30px;
+    width: 110px;
+    letter-spacing: 1px;
+    font-weight: 50;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.box2-button1{
+  background-color: red;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 22px;
+  display: block;
+}
+
+.box2-img1{
+    position: relative;
+    top: 50px;
+
+}
+.box4-button1{
+  background-color: red;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 22px;
+  display: block;
+}
+
+/* CHILDREN SECTION */
+
+.section-third{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    padding-top: 100px;
+    /* overflow: auto; */
+    height: 500px ;
+}
+
+/* MEN SECTION */
+
+.section-fourth{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    padding-top: 100px;
+    /* overflow: auto; */
+    height: 500px ;
+}
+
+/* FOOTER SECTION */
+
+
+.footer-main{
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-box{
+    height: 500px;
+    width: 100%;
+    background-color: #f0f8ff;
+    
+}
+.footer-list1{
+    color: rgb(143, 141, 141);
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer-list2{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-list2:hover{
+    color: #6699cc;
+}
+
+
+.footer-part1{
+    display: flex;
+    
+}
+.footer-part2{
+    display: flex;
+}
+.footer-part3{
+    display: flex;
+}
+
+.fa-icon{
+    font-size: 34px;
+    top: 10px;
+    right: 5px;
+    position: relative;
+}
+ .new1{
+    color: red;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* FOOTER HORIJONTAL LINE KE BAAD*/
+
+.ftr-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* FOOTER LEFT SIDE SECTION  */
+.ftr-prg{
+    height: 100px;
+    width: 500px;
+    padding-top: 5px;
+}
+h3{
+    margin-top: 30px;
+}
+.fa-square-facebook{
+    color: rgb(73, 73, 200);
+   
+}
+.fa-square-twitter{
+    color: rgb(141, 182, 226);
+   
+}
+.fa-square-linkedin{
+    color: rgb(17, 17, 180);
+    
+} 
+
+
+
+/* FOOTER MIDDLE PART SECTION */
+.ftr-heading2{
+    color: grey;
+    font-size: 28px;
+}
+.ftr-link{
+    display: flex;
+    padding-top: 10px;
+}
+li{
+    padding-top: 10px;
+}
+a{
+    color: black;
+    text-decoration: underline;
+    font-size: 18px;
+}
+a:hover{
+   color:  #6699cc;
+}
+.ftr-right-link{
+    padding-left: 20px;
+}
+
+/* FOOTER MIDDLE PART SECTION */
+.ftr-prg-right{
+    padding-top: 10px;
+}
+.ftr-textarea{
+    margin-top: 10px;
+}
